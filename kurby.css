@@ -1,0 +1,96 @@
+.container{
+	height: 100%;
+	width: 100%;
+}
+
+.eye{
+	background-color: #000;
+	border-radius: 50%;
+	height: 220px;
+	width: 95px; 
+	position: absolute;
+	top: 20%
+}
+
+.color-eye{
+	background-color: rgb(2, 117, 184);
+	border-radius: 50%;
+	height: 75px;
+	margin: 22px 25px;
+	position: relative;
+	top: 45%;
+	width: 45px;
+}
+
+.dark-side{
+	background-color: #000;
+	border-radius: 50%;
+	bottom:	25%;
+	height: 100px;
+	left: 9%;
+	position: absolute;
+	width: 80px;
+}
+
+.sheen{
+	background-color: #FFF;
+	border-radius: 50%;
+	height: 100px;
+	left: 25%;
+	position: absolute;
+	top: 10%;
+	width: 50px;
+}
+
+.eye-left{
+	left: 30%;
+}
+
+.eye-right{
+	left: 60%;
+}
+
+.mouth{
+	border: 8px solid;
+	border-radius: 50%;
+	height: 120px;
+	left: 42%;
+	position: relative;
+	top: 60%;
+	width: 150px;
+}
+
+.mouth-top{
+	background-color: pink;
+	height: 90px;
+	right: 6%;
+	bottom: 10%;
+	position: relative;
+	width: 167px;
+}
+
+.cheek{
+	background: rgb(223, 66, 87);
+	border-radius: 50%;
+	height: 90px;
+	width: 150px;
+	position: relative;
+}
+
+.cheek-left{
+	left: 15%;
+	position: absolute;
+	top: 60%;
+	width: 0;
+}
+
+.cheek-right{
+	left: 70%;
+	position: absolute;
+	top: 60%;
+	width: 0;
+}
+
+body{
+	background-color: pink;
+}
